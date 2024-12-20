@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build Main",
+        "type": "shell",
+        "command": "make",
+        "args": ["main"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Build task for compiling main executable"
+      }
+    ]
+  }
+  
